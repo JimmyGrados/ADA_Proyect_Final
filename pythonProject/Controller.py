@@ -51,7 +51,8 @@ class Controller:
                         clicked_cell.AddCandidate(cand)
 
         self.selected_cell = clicked_cell
-
+       
+        
     def Solve(self):
         SudokuModel.Solve()
         self.model = SudokuModel
